@@ -24,13 +24,13 @@ export default function Contact(props){
 //     };
 
     return (
-        <div id="contact" className="flex flex-col items-center justify-evenly w-full h-[calc(70vh)] px-24 ">
+        <div id="contact" className="flex flex-col items-center justify-evenly w-full lg:h-[calc(70vh)] lg:h-[calc(100vh)] lg:px-24 lg:py-0 py-10 ">
                    <div className="flex flex-col items-center justify-center mb-4 "><h1 className="z-40 text-3xl mb-5"><span className="text-[#534b49]">CONTACTER </span>MAGNUS</h1>
-                   <p className="text-lg flex flex-col  items-center justify-center z-40 font-normal  text-justify  ">
+                   <p className="px-6 lg:px-auto text-lg flex flex-col  items-center justify-center z-40 font-normal  text-justify  ">
                <h1 className="text-lg flex flex-col  items-center justify-center text-center">Afin de vous servir, nous vous demandons de soumettre les informations demandées.</h1>
-               <h1>Merci de votre intérêt pour Magnus!</h1>
+               <h1 className="hidden lg:block">Merci de votre intérêt pour Magnus!</h1>
                </p></div>
-           <div  className="flex  flex-col items-center justify-center w-1/2">
+           <div  className="flex  flex-col items-center justify-center lg:w-1/2 w-full lg:px-auto px-5">
             
                <form className="flex flex-col  w-full"  ref={form}>
                    <input required type="text" name="name" placeholder="Name" className="bg-[#f6f6f6] outline-none border-2 border-[#000] focus:border-[#c43527] mb-2 p-3 rounded-2xl"/>

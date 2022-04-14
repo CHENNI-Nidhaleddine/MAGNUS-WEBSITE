@@ -1,13 +1,13 @@
 import Image from "next/image"
 export default function Team() {
     return (
-        <div id="team"className="relative flex flex-col items-center justify-center px-16 w-full h-[calc(70vh)]">
+        <div id="team"className="relative flex flex-col items-center justify-center lg:px-16 w-full lg:h-[calc(70vh)] px-10  h-full py-10 lg:py-auto">
               <div className="flex flex-col items-center justify-center mb-14 "><h1 className="z-40 text-3xl mb-4"><span className="text-[#534b49]">EQUIPE </span>MAGNUS</h1>
                    <p className="text-lg flex flex-col  items-center justify-center z-40 font-normal  text-justify  ">
                <h1 className="text-lg flex flex-col  items-center justify-center text-center">Des années d&apos;expérience acquises en travaillant avec et pour les petites, moyennes et grandes entreprises. C&apos;est l&apos;équipe Magnus.</h1>
 
                </p></div>
-               <div className="grid col-span-8 row-span-4 grid-cols-4 grid-row-2 gap-20 items-center justify-center text-center">
+               <div className="grid col-span-8 row-span-4 lg:grid-cols-4 grid-cols-1 lg:grid-row-2 gap-20 items-center justify-center text-center">
                    <div className="flex flex-col items-center justify-center">
                        <h1 className="text-xl text-[#c43527] font-bold">SARRA BENDAHO</h1>
                        <h2 className="text-lg flex items-center justify-center z-40 font-normal">Directrice generale</h2>
