@@ -39,7 +39,7 @@ export default function About() {
       <SwiperSlide><div className="relative w-[calc(100vw)] h-[calc(70vh)] px-32 pt-32">
          <Image className=" absolute opacity-30" src="/images/about.jpg" layout="fill" />
         <h1 className="relative z-40 text-5xl font-bold  mb-10">DÉVELOPPEMENT<br/> DES AFFAIRES</h1>
-        <h2 className="relative z-40 text-xl text-[#534b49] ">Accompagnement de la planification à l'exécution</h2></div></SwiperSlide>
+        <h2 className="relative z-40 text-xl text-[#534b49] ">Accompagnement de la planification à l&apos;exécution</h2></div></SwiperSlide>
       <SwiperSlide><div className="relative w-[calc(100vw)] h-[calc(70vh)] px-32 pt-32">
       <Image className="absolute opacity-70" src="/images/about2.jpg" layout="fill" />
       <h1 className="relative z-40 text-5xl font-bold  mb-10">
