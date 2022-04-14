@@ -21,7 +21,7 @@ export default function Team() {
                        <h2 className="text-lg flex items-center justify-center z-40 font-normal">Consultante en gestion </h2>
                    </div>
                    <div className="flex flex-col items-center justify-center">
-                       <h1 className="text-xl text-[#c43527] font-bold">TOUAMI MOHAMED</h1>
+                       <h1 className="text-xl text-[#c43527] font-bold">TOUAMI MOHAMMED</h1>
                        <h2 className="text-lg flex items-center justify-center z-40 font-normal">Conseiller commercial</h2>
                    </div>
                    <div className="flex flex-col items-center justify-center">
