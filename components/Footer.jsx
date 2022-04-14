@@ -9,7 +9,7 @@ export default function Footer() {
            </div>
            <div className="flex flex-col items-center justify-center">
                <h2>© 2020-2022 Magnus Technologies</h2>
-               <h2 className="text-[#4e4745]">website built by Magnus</h2>
+               <h2 className="text-[#4e4745]">Siteweb réalisé par Magnus</h2>
          
 
            </div>
