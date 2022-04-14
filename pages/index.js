@@ -1,4 +1,4 @@
-
+import React from "react"
 import Head from 'next/head'
 import Image from 'next/image'
 import About from '../components/About'
@@ -8,9 +8,16 @@ import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Logo from '../components/Logo'
 import Team from '../components/Team'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 
 export default function Home() {
+  React.useEffect(() => {
+    AOS.init({
+      duration : 1500
+    });
+  }, []);
   return (
     <div >
       <Head>
