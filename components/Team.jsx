@@ -9,11 +9,11 @@ export default function Team() {
                </p></div>
                <div className="grid col-span-8 row-span-4 lg:grid-cols-4 grid-cols-1 lg:grid-row-2 gap-20 items-center justify-center text-center">
                    <div className="flex flex-col items-center justify-center">
-                       <h1 className="text-xl text-[#c43527] font-bold">SARRA BENDAHO</h1>
+                       <h1 className="text-xl text-[#c43527] font-bold">BENDAHO SARRA</h1>
                        <h2 className="text-lg flex items-center justify-center z-40 font-normal">Directrice generale</h2>
                    </div>
                    <div className="flex flex-col items-center justify-center">
-                       <h1 className="text-xl text-[#c43527] font-bold">CHENNI NIDHAL</h1>
+                       <h1 className="text-xl text-[#c43527] font-bold">CHENNI NIDHAL EDDINE</h1>
                        <h2 className="text-lg flex items-center justify-center z-40 font-normal">Consultant développeur</h2>
                    </div>
                    <div className="flex flex-col items-center justify-center">
@@ -29,7 +29,7 @@ export default function Team() {
                        <h2 className="text-lg flex items-center justify-center z-40 font-normal">Consultant en UX design</h2>
                    </div>
                    <div className="flex flex-col items-center justify-center">
-                       <h1 className="text-xl text-[#c43527] font-bold">BERRICHE AYMENE</h1>
+                       <h1 className="text-xl text-[#c43527] font-bold">BERRICHE AYMEN</h1>
                        <h2 className="text-lg flex items-center justify-center z-40 font-normal">General  Consultant</h2>
                    </div>
                    <div className="flex flex-col items-center justify-center">
