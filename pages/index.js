@@ -27,6 +27,7 @@ export default function Home() {
             accompagne tout au long de votre projet . Magnus est le partenaire idéal de vos idées , qui
              saura être à votre écoute , répondre à vos objectifs attendus et proposer les meilleures solutions 
              professionnelles façonnées à vos mesures. " />
+             <meta name="google-site-verification" content="HjrgPIaLe6-BuZ0L3GSz08pR4M5tM_r1lOqjNg0r9T0" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
