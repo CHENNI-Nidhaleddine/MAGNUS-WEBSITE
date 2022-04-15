@@ -13,7 +13,7 @@ export default function Team() {
                        <h2 className="text-lg flex items-center justify-center z-40 font-normal">Directrice generale</h2>
                    </div>
                    <div className="flex flex-col items-center justify-center">
-                       <h1 className="text-xl text-[#c43527] font-bold">CHENNI NIDHAL EDDINE</h1>
+                       <h1 className="text-xl text-[#c43527] font-bold">CHENNI NIDHAL</h1>
                        <h2 className="text-lg flex items-center justify-center z-40 font-normal">Consultant développeur</h2>
                    </div>
                    <div className="flex flex-col items-center justify-center">
