@@ -1,7 +1,7 @@
 import Image from "next/image"
 export default function Expertise() {
     return (
-        <div id="about" data-aos="zoom-in" className="relative flex flex-col items-center justify-center lg:px-16 px-10 w-full lg:h-[calc(70vh)] h-full py-16 lg:py-auto  ">
+        <div  data-aos="zoom-in" className="relative flex flex-col items-center justify-center lg:px-16 px-10 w-full lg:h-[calc(70vh)] h-full py-16 lg:py-auto  ">
             <Image className="absolute opacity-30" src="/images/expertise.jpg" layout="fill" />
            <h1 className="z-40 lg:text-3xl text-2xl mb-8"><span className="text-[#534b49]">À PROPOS </span>MAGNUS</h1>
            <p className="text-xl flex items-center justify-center z-40 font-normal lg:px-10 text-justify">
@@ -10,8 +10,9 @@ export default function Expertise() {
             accompagne tout au long de votre projet . Magnus est le partenaire idéal de vos idées , qui
              saura être à votre écoute , répondre à vos objectifs attendus et proposer les meilleures solutions 
              professionnelles façonnées à vos mesures. 
-
+         
            </p>
+           <span id="team" ></span>
         </div>
     )
 }

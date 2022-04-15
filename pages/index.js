@@ -37,9 +37,11 @@ export default function Home() {
       </div>
       <div className="relative mt-[calc(30vh)] z-30">
       <About/>
-
+      
       <Expertise/>
+     
       <Team/>
+    
       <Contact/>
       <Footer/>
       </div>

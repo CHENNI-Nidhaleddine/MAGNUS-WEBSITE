@@ -48,6 +48,7 @@ export default function About() {
       
       
     </Swiper>
+    <span id="about"></span>
         </div>
     )
 }

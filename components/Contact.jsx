@@ -24,7 +24,7 @@ export default function Contact(props){
 //     };
 
     return (
-        <div id="contact" data-aos="zoom-in"  className="flex flex-col items-center justify-evenly w-full lg:h-[calc(70vh)] lg:h-full lg:px-24 lg:py-auto py-10 ">
+        <div  data-aos="zoom-in"  className="flex flex-col items-center justify-evenly w-full lg:h-[calc(70vh)] lg:h-full lg:px-24 lg:py-auto py-10 ">
                    <div className="flex flex-col items-center justify-center mb-4 "><h1 className="z-40 text-3xl mb-5"><span className="text-[#534b49]">CONTACTER </span>MAGNUS</h1>
                    <p className="px-6 lg:px-auto text-lg flex flex-col  items-center justify-center z-40 font-normal  text-justify  ">
                <h1 className="text-lg flex flex-col  items-center justify-center text-center">Afin de vous servir, nous vous demandons de soumettre les informations demandées.</h1>
