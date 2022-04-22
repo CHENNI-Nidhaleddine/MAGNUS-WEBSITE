@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import {BsFacebook,BsTwitter,BsLinkedin,BsInstagram} from "react-icons/bs"
 export default function Footer() {
     return (
@@ -23,6 +24,7 @@ export default function Footer() {
           
                
            </div>
+        
         </div>
     )
 }

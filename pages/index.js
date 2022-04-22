@@ -10,6 +10,7 @@ import Logo from '../components/Logo'
 import Team from '../components/Team'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import Service from "../components/Service"
 
 
 export default function Home() {
@@ -32,14 +33,15 @@ export default function Home() {
       </Head>
 
       <div className="bg-[#f6f6f6] font-bold w-full" >
-      <div className="fixed top-0 w-full block bg-[#f6f6f6] z-50">
+      <div className=" lg:fixed top-0 w-full block bg-[#f6f6f6] z-50">
           <Logo/>
           <Header/>
       </div>
-      <div className="relative mt-[calc(30vh)] z-30">
+      <div className="relative lg:mt-[calc(30vh)]  z-30">
       <About/>
       
       <Expertise/>
+      <Service/>
      
       <Team/>
     

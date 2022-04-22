@@ -7,7 +7,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 export default function About() {
     return (
-        <div className="flex items-center justify-center w-full lg:h-[calc(70vh)] h-full ">
+        <div className="flex items-center justify-center w-full lg:h-[calc(70vh)] h-[calc(90vh)] ">
              <Swiper
       spaceBetween={50}
       slidesPerView={1}
@@ -31,20 +31,20 @@ export default function About() {
       }}
       
     >
-      <SwiperSlide><div className="relative w-[calc(100vw)] h-[calc(70vh)] lg:px-32 pt-32 px-4">
+      <SwiperSlide><div className="relative w-[calc(100vw)] lg:h-[calc(70vh)] h-[calc(90vh)]  lg:px-32 pt-32 px-4">
       <Image className="absolute opacity-30 " src="/images/about1.jpg" layout="fill" />
        
-        <h1 className="relative  z-40 lg:text-5xl text-4xl font-bold mb-10">SOLUTIONS <br/> PRATIQUES</h1>
-      <h2 className="relative z-40 text-xl text-[#534b49]  ">Des services intelligents, efficaces et sur mesure.</h2></div></SwiperSlide>
-      <SwiperSlide><div className="relative w-[calc(100vw)] h-[calc(70vh)] lg:px-32 pt-32 px-4">
+        <h1 className="relative  z-40 lg:text-5xl text-4xl font-bold mb-10 lg:top-auto top-20">SOLUTIONS <br/> PRATIQUES</h1>
+      <h2 className="relative z-40 text-xl text-[#534b49] lg:top-auto top-16  ">Des services intelligents, efficaces et sur mesure.</h2></div></SwiperSlide>
+      <SwiperSlide><div className="relative w-[calc(100vw)] lg:h-[calc(70vh)] h-[calc(90vh)] lg:px-32 pt-32 px-4">
          <Image className=" absolute opacity-30" src="/images/about.jpg" layout="fill" />
-        <h1 className="relative z-40 lg:text-5xl text-4xl font-bold  mb-10">DÉVELOPPEMENT<br/> DES AFFAIRES</h1>
-        <h2 className="relative z-40 text-xl text-[#534b49] ">Accompagnement de la planification à l&apos;exécution</h2></div></SwiperSlide>
-      <SwiperSlide><div className="relative w-[calc(100vw)] h-[calc(70vh)] lg:px-32 pt-32 px-4">
+        <h1 className="relative z-40 lg:text-5xl text-4xl font-bold  mb-10 lg:top-auto top-20">DÉVELOPPEMENT<br/> DES AFFAIRES</h1>
+        <h2 className="relative z-40 text-xl text-[#534b49] lg:top-auto top-16 ">Accompagnement de la planification à l&apos;exécution</h2></div></SwiperSlide>
+      <SwiperSlide><div className="relative w-[calc(100vw)] lg:h-[calc(70vh)] h-[calc(90vh)] lg:px-32 pt-32 px-4">
       <Image className="absolute opacity-70" src="/images/about2.jpg" layout="fill" />
-      <h1 className="relative z-40 lg:text-5xl text-4xl  font-bold  mb-10">
+      <h1 className="relative z-40 lg:text-5xl text-4xl  font-bold  mb-10 lg:top-auto top-20">
         CRÉATIF<br/> QUI FONCTIONNE</h1>
-        <h2 className="relative z-40 text-xl text-[#534b49]  ">Les grandes idées méritent une présentation de 1ere classe.</h2></div></SwiperSlide>
+        <h2 className="relative z-40 text-xl text-[#534b49] lg:top-auto top-16 ">Les grandes idées méritent une présentation de 1ere classe.</h2></div></SwiperSlide>
       
       
     </Swiper>

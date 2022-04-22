@@ -37,5 +37,14 @@ a {
 * {
   box-sizing: border-box;
 }
+/* #sv1[title]:hover::after{
+  content: attr(title);
+  position: absolute;
+  bottom: 0 ;
+  margin: auto;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #b02f23;
+} */
 
 

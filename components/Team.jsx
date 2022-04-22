@@ -9,40 +9,42 @@ export default function Team() {
                </p></div>
                <div className="grid col-span-8 row-span-4 lg:grid-cols-4 grid-cols-1 lg:grid-row-2 gap-20 items-center justify-center text-center">
                    <div className="flex flex-col items-center justify-center">
-                       <h1 className="text-xl text-[#c43527] font-bold">BENDAHO SARRA</h1>
+                       <h1 id="sb" className="text-xl text-[#c43527] font-bold">BENDAHO SARRA</h1>
                        <h2 className="text-lg flex items-center justify-center z-40 font-normal">Directrice generale</h2>
                    </div>
                    <div className="flex flex-col items-center justify-center">
-                       <h1 className="text-xl text-[#c43527] font-bold">CHENNI NIDHAL</h1>
+                       <h1 id="nc" data-image="/images/about.jpg" className="text-xl text-[#c43527] font-bold">CHENNI NIDHAL</h1>
                        <h2 className="text-lg flex items-center justify-center z-40 font-normal">Consultant développeur</h2>
                    </div>
                    <div className="flex flex-col items-center justify-center">
-                       <h1 className="text-xl text-[#c43527] font-bold">TOUHAR AFNANE</h1>
+                       <h1 id="at" className="text-xl text-[#c43527] font-bold">TOUHAR AFNANE</h1>
                        <h2 className="text-lg flex items-center justify-center z-40 font-normal">Consultante en gestion </h2>
                    </div>
                    <div className="flex flex-col items-center justify-center">
-                       <h1 className="text-xl text-[#c43527] font-bold">TOUAMI MOHAMMED</h1>
+                       <h1 id="mt" className="text-xl text-[#c43527] font-bold">TOUAMI MOHAMMED</h1>
                        <h2 className="text-lg flex items-center justify-center z-40 font-normal">Conseiller commercial</h2>
                    </div>
                    <div className="flex flex-col items-center justify-center">
-                       <h1 className="text-xl text-[#c43527] font-bold">KHENFOUF AYOUB</h1>
+                       <h1  id="ak"className="text-xl text-[#c43527] font-bold">KHENFOUF AYOUB</h1>
                        <h2 className="text-lg flex items-center justify-center z-40 font-normal">Consultant en UX design</h2>
                    </div>
                    <div className="flex flex-col items-center justify-center">
-                       <h1 className="text-xl text-[#c43527] font-bold">BERRICHE AYMEN</h1>
+                       <h1 id="ayb" className="text-xl text-[#c43527] font-bold">BERRICHE AYMEN</h1>
                        <h2 className="text-lg flex items-center justify-center z-40 font-normal">General  Consultant</h2>
                    </div>
                    <div className="flex flex-col items-center justify-center">
-                       <h1 className="text-xl text-[#c43527] font-bold">BEKKAR ILHEM</h1>
+                       <h1 id="ib" className="text-xl text-[#c43527] font-bold">BEKKAR ILHEM</h1>
                        <h2 className="text-lg flex items-center justify-center z-40 font-normal">Consultante en gestion</h2>
                    </div>
                    <div className="flex flex-col items-center justify-center">
-                       <h1 className="text-xl text-[#c43527] font-bold">BENTAYEB AMINE</h1>
+                       <h1 id="amb" className="text-xl text-[#c43527] font-bold">BENTAYEB AMINE</h1>
                        <h2 className="text-lg flex items-center justify-center z-40 font-normal">Consultant développeur</h2>
                    </div>
+    
                    
                </div>
                <span id="contact"></span>
+              
         </div>
     )
 }
