@@ -32,7 +32,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="bg-[#f6f6f6] font-bold w-full" >
+      <div className="bg-[#fffefe] font-bold w-full" >
       <div className=" lg:fixed top-0 w-full block bg-[#f6f6f6] z-50">
           <Logo/>
           <Header/>

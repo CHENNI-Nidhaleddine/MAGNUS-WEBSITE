@@ -33,14 +33,14 @@ export default function Contact(props){
            <div  className="flex  flex-col items-center justify-center lg:w-1/2 w-full lg:px-auto px-5">
             
                <form className="flex flex-col  w-full"  ref={form}>
-                   <input required type="text" name="name" placeholder="Name" className="bg-[#f6f6f6] outline-none border-2 border-[#000] focus:border-[#c43527] mb-2 p-3 rounded-2xl"/>
+                   <input required type="text" name="name" placeholder="Name" className="bg-[#f6f6f6] outline-none border-2 border-[#000] focus:border-[#2292d1] mb-2 p-3 rounded-2xl"/>
                    <div className="lg:flex w-full">
-                        <input required type="email" name="email"  placeholder="Email" className="lg:w-1/2 w-full bg-[#f6f6f6] outline-none border-2 border-[#000] focus:border-[#c43527] mb-2 p-3 rounded-2xl lg:mr-1"/>
-                        <input required type="text"  name="subject" placeholder="Subject" className="lg:w-1/2 w-full bg-[#f6f6f6] outline-none border-2 border-[#000] focus:border-[#c43527] mb-2 p-3 rounded-2xl lg:ml-1"/>
+                        <input required type="email" name="email"  placeholder="Email" className="lg:w-1/2 w-full bg-[#f6f6f6] outline-none border-2 border-[#000] focus:border-[#2292d1] mb-2 p-3 rounded-2xl lg:mr-1"/>
+                        <input required type="text"  name="subject" placeholder="Subject" className="lg:w-1/2 w-full bg-[#f6f6f6] outline-none border-2 border-[#000] focus:border-[#2292d1] mb-2 p-3 rounded-2xl lg:ml-1"/>
                    </div>
-                   <textarea required type="text" name="message" placeholder="Message" className="bg-[#f6f6f6] outline-none border-2 border-[#000] focus:border-[#c43527] mb-2 p-3 rounded-2xl"></textarea>
+                   <textarea required type="text" name="message" placeholder="Message" className="bg-[#f6f6f6] outline-none border-2 border-[#000] focus:border-[#2292d1] mb-2 p-3 rounded-2xl"></textarea>
             
-                   <input type="submit" value="Send" className="font-bold  bg-[#c43527] rounded-2xl p-2 mt-4 w-fit px-6 m-auto cursor-pointer text-[#f6f6f6]"/>
+                   <input type="submit" value="Send" className="font-bold  bg-[#2292d1] rounded-2xl p-2 mt-4 w-fit px-6 m-auto cursor-pointer text-[#f6f6f6]"/>
                   
                    <div className="w-full m-auto z-60 fixed bottom-[calc(5vh)] ">
                        

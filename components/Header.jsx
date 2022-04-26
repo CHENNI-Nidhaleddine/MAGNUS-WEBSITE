@@ -11,18 +11,18 @@ export default function Header() {
   const liStyle="list-type-none text-[#fff]  "
   const [active,setActive]=React.useState("home")
     return (
-        <div className=" flex flex-col lg:flex-row items-center lg:justify-center justify-between w-full px-4 lg:px-auto bg-[#c43527] z-99 ">
+        <div className=" flex flex-col lg:flex-row items-center lg:justify-center justify-between w-full px-4 lg:px-auto bg-[#1d1d1b] z-99 ">
            <ul className="hidden lg:flex items-center justify-evenly w-full  text-white">
-               <li className="cursor-pointer list-type-none hover:bg-[#b02f23] py-2 px-2 "><Link  href="#about"><span className="h-full w-full flex items-center justify-center text-center">À PROPOS MAGNUS</span></Link></li>
-               <li className="cursor-pointer list-type-none hover:bg-[#b02f23] py-2 px-2 "><Link href="#service"><span className="h-full w-full flex items-center justify-center text-center">SERVICES MAGNUS</span></Link></li>
-               <li className="cursor-pointer list-type-none hover:bg-[#b02f23] py-2 px-2 "><Link href="#"><span className="h-full w-full flex items-center justify-center text-center">PROJETS MAGNUS</span></Link></li>
-               <li className="cursor-pointer list-type-none hover:bg-[#b02f23] py-2 px-2 "><Link href="#team"><span className="h-full w-full flex items-center justify-center text-center">L&apos;EQUIPE MAGNUS</span></Link></li>
-               <li className="cursor-pointer list-type-none hover:bg-[#b02f23] py-2 px-2 "><Link href="#contact"><span className="h-full w-full flex items-center justify-center text-center">CONTACTER MAGNUS</span></Link></li>
+               <li className="cursor-pointer list-type-none hover:bg-[#2292d1] py-2 px-2 "><Link  href="#about"><span className="h-full w-full flex items-center justify-center text-center">À PROPOS MAGNUS</span></Link></li>
+               <li className="cursor-pointer list-type-none hover:bg-[#2292d1] py-2 px-2 "><Link href="#service"><span className="h-full w-full flex items-center justify-center text-center">SERVICES MAGNUS</span></Link></li>
+               <li className="cursor-pointer list-type-none hover:bg-[#2292d1] py-2 px-2 "><Link href="#"><span className="h-full w-full flex items-center justify-center text-center">PROJETS MAGNUS</span></Link></li>
+               <li className="cursor-pointer list-type-none hover:bg-[#2292d1] py-2 px-2 "><Link href="#team"><span className="h-full w-full flex items-center justify-center text-center">L&apos;EQUIPE MAGNUS</span></Link></li>
+               <li className="cursor-pointer list-type-none hover:bg-[#2292d1] py-2 px-2 "><Link href="#contact"><span className="h-full w-full flex items-center justify-center text-center">CONTACTER MAGNUS</span></Link></li>
            </ul>
            
           <div className=" lg:hidden h-[calc(10vh)] text-white text-4xl font-bold flex  items-center justify-between w-full">
            <div className="lg:hidden flex items-center justify-center">
-               <Image className="cursor-pointer" src="/images/magnusIcon.png" width={45} height={40}/>
+               <Image className="cursor-pointer" src="/images/icon.png" width={45} height={40}/>
            </div>
           <button className= "flex items-center justify-center" onClick={()=>setIsOpen(!isOpen)}>
             <GiHamburgerMenu className={isOpen? "hidden":"cursor-pointer"}/>
@@ -31,7 +31,7 @@ export default function Header() {
         </div>
         <ul className={isOpen? " fixed relative  z-99 left-0  w-5/6 h-[calc(90vh)] flex  items-center justify-center " :"hidden"}>
                 
-                <div className="bg-[#c43527]  h-full w-full flex flex-col  items-center justify-evenly shadow-l-3xl transition-all duration-500 ease-in-out text-white ">
+                <div className="bg-[#1d1d1b]  h-full w-full flex flex-col  items-center justify-evenly shadow-l-3xl transition-all duration-500 ease-in-out text-white ">
                 {/* <li className={liStyle} onClick={()=>{setActive("home");setIsOpen(false)}}><Link href="/"  ><span className={active=="home"? " text-2xl text-[#70AD47] cursor-pointer":" text-2xl text-[#fff] cursor-pointer"} >Home</span></Link></li>
                 <li className={liStyle} onClick={()=>{setActive("about");setIsOpen(false)}}><Link href="#about" ><span className={active=="about"? " text-2xl text-[#70AD47] cursor-pointer":" text-2xl text-[#fff] cursor-pointer"}>About</span></Link></li>
                 <li className={liStyle} onClick={()=>{setActive("experience");setIsOpen(false)}}><Link href="#resume" ><span className={active=="experience"? " text-2xl text-[#70AD47] cursor-pointer":" text-2xl text-[#fff] cursor-pointer"}>Resume</span></Link></li>

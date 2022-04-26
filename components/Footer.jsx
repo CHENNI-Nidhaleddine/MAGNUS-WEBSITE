@@ -3,14 +3,14 @@ import Image from "next/image";
 import {BsFacebook,BsTwitter,BsLinkedin,BsInstagram} from "react-icons/bs"
 export default function Footer() {
     return (
-        <div className="flex flex-col-reverse lg:flex-row items-center justify-evenly lg:px-16 w-full h-[calc(20vh)] bg-[#c43527] text-[#f6f6f6]">
+        <div className="flex flex-col-reverse lg:flex-row items-center justify-evenly lg:px-16 w-full h-[calc(20vh)] bg-[#1d1d1b] text-[#f6f6f6]">
            <div className="flex items-center justify-center">
                <Link href="mailto:ne.chenni@gmail.com">contact@magnus.dz</Link>
 
            </div>
            <div className="flex flex-col items-center justify-center">
                <h2>© 2022 Magnus Technologies</h2>
-               <h2 className="text-[#4e4745]">Siteweb réalisé par Magnus</h2>
+               <h2 className="text-[#d3eaf7]">Siteweb réalisé par Magnus</h2>
          
 
            </div>
