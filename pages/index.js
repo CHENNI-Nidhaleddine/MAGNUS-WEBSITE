@@ -33,11 +33,11 @@ export default function Home() {
       </Head>
 
       <div className="bg-[#fffefe] font-bold w-full" >
-      <div className=" lg:fixed top-0 w-full block bg-[#f6f6f6] z-50">
-          <Logo/>
+      <div className=" lg:fixed top-0 w-full block bg-[#f6f6f6] h-[calc(10vh)] z-50">
+          
           <Header/>
       </div>
-      <div className="relative lg:mt-[calc(30vh)]  z-30">
+      <div className="relative lg:mt-[calc(5vh)]  z-30">
       <About/>
       
       <Expertise/>

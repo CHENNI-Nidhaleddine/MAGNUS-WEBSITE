@@ -8,8 +8,8 @@ import Xarrow, {useXarrow, Xwrapper} from 'react-xarrows';
 export default function Service() {
    
     return (
-        <div    className="relative flex flex-col items-center justify-center lg:px-16 px-10 w-full lg:h-[calc(70vh)] h-full py-16 lg:py-auto  ">
-        <h1 className="z-40 lg:text-3xl text-2xl "><span className="text-[#534b49]">SERVICES </span>MAGNUS</h1>
+        <div  id="service"  className="relative flex flex-col items-center justify-center lg:px-16 px-10 w-full lg:h-fit h-full py-10 lg:py-auto  ">
+        <h1 className="z-40 lg:text-3xl text-2xl "><span className="text-[#2292d1]">SERVICES </span>MAGNUS</h1>
         <p className="px-6 lg:px-auto text-lg flex flex-col  items-center justify-center z-40 font-normal  text-justify lg:mb-4 xl:mb-8  ">
            
         <h1 className="text-lg flex flex-col  items-center justify-center text-center lg:mb-auto mb-10"> Notre but est de vous offrir une gamme de prestations informatiques la plus large possible</h1>
@@ -147,7 +147,7 @@ export default function Service() {
            
            </Xwrapper>
            
-           <span id="team" ></span>
+           
         </div>
     )
 }

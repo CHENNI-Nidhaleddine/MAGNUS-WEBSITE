@@ -24,8 +24,8 @@ export default function Contact(props){
 //     };
 
     return (
-        <div  data-aos="zoom-in"  className="flex flex-col items-center justify-evenly w-full lg:h-[calc(70vh)] h-[calc(90vh)] lg:px-24 lg:py-auto py-10 ">
-                   <div className="flex flex-col items-center justify-center mb-4 "><h1 className="z-40 text-3xl mb-5"><span className="text-[#534b49]">CONTACTER </span>MAGNUS</h1>
+        <div id="contact"  data-aos="zoom-in"  className="flex flex-col items-center justify-evenly w-full lg:h-[calc(70vh)] h-fit lg:px-24 lg:py-auto py-10 ">
+                   <div className="flex flex-col items-center justify-center mb-4 "><h1 className="z-40 text-3xl mb-5"><span className="text-[#2292d1]">CONTACTER </span>MAGNUS</h1>
                    <p className="px-6 lg:px-auto text-lg flex flex-col  items-center justify-center z-40 font-normal  text-justify  ">
                <h1 className="text-lg flex flex-col  items-center justify-center text-center">Afin de vous servir, nous vous demandons de soumettre les informations demandées.</h1>
                <h1 className="hidden lg:block">Merci de votre intérêt pour Magnus!</h1>
@@ -33,14 +33,14 @@ export default function Contact(props){
            <div  className="flex  flex-col items-center justify-center lg:w-1/2 w-full lg:px-auto px-5">
             
                <form className="flex flex-col  w-full"  ref={form}>
-                   <input required type="text" name="name" placeholder="Name" className="bg-[#f6f6f6] outline-none border-2 border-[#000] focus:border-[#2292d1] mb-2 p-3 rounded-2xl"/>
+                   <input required type="text" name="name" placeholder="Name" className="bg-none border-2 border-[#2292d1] outline-none focus:border-[#000] mb-2 p-3 rounded-2xl"/>
                    <div className="lg:flex w-full">
-                        <input required type="email" name="email"  placeholder="Email" className="lg:w-1/2 w-full bg-[#f6f6f6] outline-none border-2 border-[#000] focus:border-[#2292d1] mb-2 p-3 rounded-2xl lg:mr-1"/>
-                        <input required type="text"  name="subject" placeholder="Subject" className="lg:w-1/2 w-full bg-[#f6f6f6] outline-none border-2 border-[#000] focus:border-[#2292d1] mb-2 p-3 rounded-2xl lg:ml-1"/>
+                        <input required type="email" name="email"  placeholder="Email" className="lg:w-1/2 w-full bg-none border-2 border-[#2292d1]  outline-none  focus:border-[#000] mb-2 p-3 rounded-2xl lg:mr-1"/>
+                        <input required type="text"  name="subject" placeholder="Subject" className="lg:w-1/2 w-full bg-none border-2 border-[#2292d1] outline-none  focus:border-[#000] mb-2 p-3 rounded-2xl lg:ml-1"/>
                    </div>
-                   <textarea required type="text" name="message" placeholder="Message" className="bg-[#f6f6f6] outline-none border-2 border-[#000] focus:border-[#2292d1] mb-2 p-3 rounded-2xl"></textarea>
+                   <textarea required type="text" name="message" placeholder="Message" className="bg-none border-2 border-[#2292d1] outline-none  focus:border-[#000] mb-2 p-3 rounded-2xl"></textarea>
             
-                   <input type="submit" value="Send" className="font-bold  bg-[#2292d1] rounded-2xl p-2 mt-4 w-fit px-6 m-auto cursor-pointer text-[#f6f6f6]"/>
+                   <input type="submit" value="Send" className="font-normal hover:text-[#000] hover:bg-[#2292d1]  bg-none border-2 border-[#2292d1] rounded-2xl p-2 mt-4 w-fit px-6 m-auto cursor-pointer text-[#2292d1]"/>
                   
                    <div className="w-full m-auto z-60 fixed bottom-[calc(5vh)] ">
                        

@@ -1,8 +1,8 @@
 import Image from "next/image"
 export default function Team() {
     return (
-        <div data-aos="zoom-in" className="relative flex flex-col items-center justify-center lg:px-16 w-full lg:h-[calc(70vh)] px-10  h-full py-10 lg:py-auto">
-              <div className="flex flex-col items-center justify-center mb-14 "><h1 className="z-40 text-3xl mb-4"><span className="text-[#534b49]">EQUIPE </span>MAGNUS</h1>
+        <div id="Team" data-aos="zoom-in" className="relative flex flex-col items-center justify-center lg:px-16 w-full px-10  h-full py-10 lg:py-auto my-16 shadow-2xl bg-[#fffefe] w-11/12 m-auto">
+              <div className="flex flex-col items-center justify-center mb-14 "><h1 className="z-40 text-3xl mb-4"><span className="text-[#2292d1]">EQUIPE </span>MAGNUS</h1>
                    <p className="text-lg flex flex-col  items-center justify-center z-40 font-normal  text-justify  ">
                <h1 className="text-lg flex flex-col  items-center justify-center text-center">Des années d&apos;expérience acquises en travaillant avec et pour les petites, moyennes et grandes entreprises. C&apos;est l&apos;équipe Magnus.</h1>
 
