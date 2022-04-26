@@ -21,7 +21,7 @@ export default function Header() {
                <li className="cursor-pointer list-type-none hover:text-[#2292d1] py-2 px-2 "><Link  href="#about"><span className="h-full w-full flex items-center justify-center text-center">À PROPOS</span></Link></li>
                <li className="cursor-pointer list-type-none hover:text-[#2292d1] py-2 px-2 "><Link href="#service"><span className="h-full w-full flex items-center justify-center text-center">SERVICES</span></Link></li>
                <li className="cursor-pointer list-type-none hover:text-[#2292d1] py-2 px-2 "><Link href="#"><span className="h-full w-full flex items-center justify-center text-center">PROJETS</span></Link></li>
-               <li className="cursor-pointer list-type-none hover:text-[#2292d1] py-2 px-2 "><Link href="#team"><span className="h-full w-full flex items-center justify-center text-center">L&apos;EQUIPE</span></Link></li>
+               <li className="cursor-pointer list-type-none hover:text-[#2292d1] py-2 px-2 "><Link href="#Team"><span className="h-full w-full flex items-center justify-center text-center">L&apos;EQUIPE</span></Link></li>
                <li className="cursor-pointer list-type-none hover:text-[#2292d1] py-2 px-2 "><Link href="#contact"><span className="h-full w-full flex items-center justify-center text-center">CONTACTER</span></Link></li>
            </ul>
            
